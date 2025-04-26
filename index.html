@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Hoxf</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+        font-family: 'Roboto Mono Variable', monospace; 
+        margin: 0;
+        padding-left: 10px;
+        color: black;
+        background:#FFFA67;
+        text-align: left;
+        
+        }
+
+        header, footer {
+        background: none;
+        color: black;
+        padding: 0;
+        }
+
+        section {
+            padding: 10px 0;
+            margin: 0;
+            border: none;
+        }
+
+        button {
+            padding: 5px 10px;
+            border: 1px solid black;
+            background: white;
+            color: black;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: lightgray;
+        }
+        
+        p
+        {
+            text-align:justify;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            font-size: 2vw;
+            
+        }
+        
+        h1
+        {
+            text-align: justify;
+            padding-left: 50px;
+            font-size: 3vw;
+            font-weight: bold;
+        }
+
+        h2
+        {
+            text-align: justify;
+            font-weight: bold;
+            margin-top: 7px;
+            margin-bottom: 50px;
+            padding-left: 50px;
+            font-size: 2vw;
+        }
+        h3
+        {
+            text-align:justify;
+            padding-left: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 2vw;
+        }
+
+        h4
+        {
+            text-align: justify;
+            font-weight: bold;
+            padding-top: 7px;
+            padding-bottom: 4px;
+            padding-left: 75px;
+            font-size: 2vw;
+        }
+        
+        pre
+        {
+            text-align:center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Namal Bandara</h1>
+            <h2>Developer | Designer | Content Creator</h3>
+    </header>
+    
+    <section id="projects">
+        <h3>Projects</h3>
+     
+        <h4>FitnessX</h4>
+        <p>It's an flutter based App developed by myself that can be help to improve the fitness ability of the user and achieve their daily goals. </p>
+     
+        <h4>Beauty of Ceylon - Kurunegala</h4>
+        <p>
+            Developed a responsive and user-friendly website to promote tourism in Kurunegala, Showcasing key attractions,cultural sites and local
+            services.The site was build using HTML and CSS.
+        </p>
+    </section>
+
+     <section id="about">
+        <h3 style="padding-left: 40%;">About Me</h3>
+        <img src="">
+        <p >I'm Namal Bandara Final Year Undergraduate from University of Jaffna Sri Lanka. enthusiased with web development and web Design
+            always try to update my knowladge and use those knowladge to improve my skills within different type of web development exercises.
+        </pre>
+            
+             <p style="text-align: center;border-top: 1px;">"Fly on your own path till final destination!"</p>
+            
+    </section>
+   
+    <section id="contact">
+        <h3>Contact</h3>
+        <p>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </p>
+    </section>
+
+    <footer>
+        <h5 style="font-size: 15px;text-align: center;font-size: 1vw;">&copy; 2025 hoxf.info . All Rights Reserved.</h5>
+    </footer>
+
+    <script>
+            function changeName() {
+                let nameElement = document.getElementById("name");
+                nameElement.style.opacity = "0"; // Start fade-out
+                setTimeout(() => {
+                    nameElement.innerText = "Welcome to My Stylish Website!";
+                    nameElement.style.opacity = "1"; // Fade-in effect
+                }, 500);
+            }
+    </script>
+</body>
+</html>
